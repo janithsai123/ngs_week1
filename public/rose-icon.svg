@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#9f1239" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+  </defs>
+  <!-- Leaves -->
+  <path d="M25 65 C 10 60, 15 40, 35 48 C 30 60, 25 65, 25 65 Z" fill="url(#leafGrad)" opacity="0.85"/>
+  <path d="M75 65 C 90 60, 85 40, 65 48 C 70 60, 75 65, 75 65 Z" fill="url(#leafGrad)" opacity="0.85"/>
+  <!-- Stem Base -->
+  <path d="M50 68 C 50 85, 48 92, 46 95" stroke="#15803d" stroke-width="4" stroke-linecap="round"/>
+  <!-- Petals -->
+  <circle cx="50" cy="48" r="30" fill="url(#roseGrad)"/>
+  <path d="M30 45 C 30 25, 70 25, 70 45 C 65 65, 35 65, 30 45 Z" fill="#be123c" opacity="0.4"/>
+  <path d="M38 42 C 38 30, 62 30, 62 42 C 58 55, 42 55, 38 42 Z" fill="#fda4af"/>
+  <circle cx="50" cy="42" r="7" fill="#881337"/>
+  <path d="M46 40 C 48 36, 54 36, 56 40" stroke="#fecdd3" stroke-width="2" stroke-linecap="round"/>
+</svg>
